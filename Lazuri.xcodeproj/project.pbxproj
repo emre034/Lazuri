@@ -1,0 +1,960 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3512CEC2E1D662F00C7B5D7 /* LazuriMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3512CE32E1D662E00C7B5D7 /* LazuriMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3512D012E1D70C400C7B5D7 /* LazuriReport.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = C3512CF52E1D70C400C7B5D7 /* LazuriReport.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C37838582E2A98E100358BA5 /* LazuriShieldConfiguration.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C378384C2E2A98E100358BA5 /* LazuriShieldConfiguration.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C378386A2E2A98FB00358BA5 /* LazuriShieldAction.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C37838612E2A98FB00358BA5 /* LazuriShieldAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3512CEA2E1D662F00C7B5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFCCD02E1C3DCE00EB6284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3512CE22E1D662E00C7B5D7;
+			remoteInfo = LazuriMonitor;
+		};
+		C3512CFF2E1D70C400C7B5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFCCD02E1C3DCE00EB6284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3512CF42E1D70C400C7B5D7;
+			remoteInfo = LazuriReport;
+		};
+		C37838562E2A98E100358BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFCCD02E1C3DCE00EB6284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C378384B2E2A98E100358BA5;
+			remoteInfo = LazuriShieldConfiguration;
+		};
+		C37838682E2A98FB00358BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFCCD02E1C3DCE00EB6284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37838602E2A98FB00358BA5;
+			remoteInfo = LazuriShieldAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3512D062E1D70C400C7B5D7 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				C3512D012E1D70C400C7B5D7 /* LazuriReport.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AFCCFA2E1C3E2200EB6284 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C3512CEC2E1D662F00C7B5D7 /* LazuriMonitor.appex in Embed Foundation Extensions */,
+				C37838582E2A98E100358BA5 /* LazuriShieldConfiguration.appex in Embed Foundation Extensions */,
+				C378386A2E2A98FB00358BA5 /* LazuriShieldAction.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3512CE32E1D662E00C7B5D7 /* LazuriMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LazuriMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3512CF52E1D70C400C7B5D7 /* LazuriReport.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = LazuriReport.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C378384C2E2A98E100358BA5 /* LazuriShieldConfiguration.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LazuriShieldConfiguration.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37838612E2A98FB00358BA5 /* LazuriShieldAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LazuriShieldAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AFCCD82E1C3DCE00EB6284 /* Lazuri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lazuri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C3512CEF2E1D662F00C7B5D7 /* Exceptions for "LazuriMonitor" folder in "LazuriMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C3512CE22E1D662E00C7B5D7 /* LazuriMonitor */;
+		};
+		C3512D022E1D70C400C7B5D7 /* Exceptions for "LazuriReport" folder in "LazuriReport" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C3512CF42E1D70C400C7B5D7 /* LazuriReport */;
+		};
+		C3746E2C2E2AB32500224CC7 /* Exceptions for "Lazuri" folder in "LazuriShieldConfiguration" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = C378384B2E2A98E100358BA5 /* LazuriShieldConfiguration */;
+		};
+		C378385B2E2A98E100358BA5 /* Exceptions for "LazuriShieldConfiguration" folder in "LazuriShieldConfiguration" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C378384B2E2A98E100358BA5 /* LazuriShieldConfiguration */;
+		};
+		C378386B2E2A98FB00358BA5 /* Exceptions for "LazuriShieldAction" folder in "LazuriShieldAction" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C37838602E2A98FB00358BA5 /* LazuriShieldAction */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C3512CE52E1D662F00C7B5D7 /* LazuriMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C3512CEF2E1D662F00C7B5D7 /* Exceptions for "LazuriMonitor" folder in "LazuriMonitor" target */,
+			);
+			path = LazuriMonitor;
+			sourceTree = "<group>";
+		};
+		C3512CF62E1D70C400C7B5D7 /* LazuriReport */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C3512D022E1D70C400C7B5D7 /* Exceptions for "LazuriReport" folder in "LazuriReport" target */,
+			);
+			path = LazuriReport;
+			sourceTree = "<group>";
+		};
+		C37838512E2A98E100358BA5 /* LazuriShieldConfiguration */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C378385B2E2A98E100358BA5 /* Exceptions for "LazuriShieldConfiguration" folder in "LazuriShieldConfiguration" target */,
+			);
+			path = LazuriShieldConfiguration;
+			sourceTree = "<group>";
+		};
+		C37838632E2A98FB00358BA5 /* LazuriShieldAction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C378386B2E2A98FB00358BA5 /* Exceptions for "LazuriShieldAction" folder in "LazuriShieldAction" target */,
+			);
+			path = LazuriShieldAction;
+			sourceTree = "<group>";
+		};
+		C3AFCCDA2E1C3DCE00EB6284 /* Lazuri */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C3746E2C2E2AB32500224CC7 /* Exceptions for "Lazuri" folder in "LazuriShieldConfiguration" target */,
+			);
+			path = Lazuri;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3512CE02E1D662E00C7B5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3512CF22E1D70C400C7B5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37838492E2A98E100358BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C378385E2E2A98FB00358BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AFCCD52E1C3DCE00EB6284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3AFCCCF2E1C3DCE00EB6284 = {
+			isa = PBXGroup;
+			children = (
+				C3AFCCDA2E1C3DCE00EB6284 /* Lazuri */,
+				C3512CE52E1D662F00C7B5D7 /* LazuriMonitor */,
+				C3512CF62E1D70C400C7B5D7 /* LazuriReport */,
+				C37838512E2A98E100358BA5 /* LazuriShieldConfiguration */,
+				C37838632E2A98FB00358BA5 /* LazuriShieldAction */,
+				C3AFCCD92E1C3DCE00EB6284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3AFCCD92E1C3DCE00EB6284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3AFCCD82E1C3DCE00EB6284 /* Lazuri.app */,
+				C3512CE32E1D662E00C7B5D7 /* LazuriMonitor.appex */,
+				C3512CF52E1D70C400C7B5D7 /* LazuriReport.appex */,
+				C378384C2E2A98E100358BA5 /* LazuriShieldConfiguration.appex */,
+				C37838612E2A98FB00358BA5 /* LazuriShieldAction.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3512CE22E1D662E00C7B5D7 /* LazuriMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3512CF02E1D662F00C7B5D7 /* Build configuration list for PBXNativeTarget "LazuriMonitor" */;
+			buildPhases = (
+				C3512CDF2E1D662E00C7B5D7 /* Sources */,
+				C3512CE02E1D662E00C7B5D7 /* Frameworks */,
+				C3512CE12E1D662E00C7B5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3512CE52E1D662F00C7B5D7 /* LazuriMonitor */,
+			);
+			name = LazuriMonitor;
+			packageProductDependencies = (
+			);
+			productName = LazuriMonitor;
+			productReference = C3512CE32E1D662E00C7B5D7 /* LazuriMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C3512CF42E1D70C400C7B5D7 /* LazuriReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3512D032E1D70C400C7B5D7 /* Build configuration list for PBXNativeTarget "LazuriReport" */;
+			buildPhases = (
+				C3512CF12E1D70C400C7B5D7 /* Sources */,
+				C3512CF22E1D70C400C7B5D7 /* Frameworks */,
+				C3512CF32E1D70C400C7B5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3512CF62E1D70C400C7B5D7 /* LazuriReport */,
+			);
+			name = LazuriReport;
+			packageProductDependencies = (
+			);
+			productName = LazuriReport;
+			productReference = C3512CF52E1D70C400C7B5D7 /* LazuriReport.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		C378384B2E2A98E100358BA5 /* LazuriShieldConfiguration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C378385C2E2A98E100358BA5 /* Build configuration list for PBXNativeTarget "LazuriShieldConfiguration" */;
+			buildPhases = (
+				C37838482E2A98E100358BA5 /* Sources */,
+				C37838492E2A98E100358BA5 /* Frameworks */,
+				C378384A2E2A98E100358BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C37838512E2A98E100358BA5 /* LazuriShieldConfiguration */,
+			);
+			name = LazuriShieldConfiguration;
+			packageProductDependencies = (
+			);
+			productName = LazuriShieldConfiguration;
+			productReference = C378384C2E2A98E100358BA5 /* LazuriShieldConfiguration.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C37838602E2A98FB00358BA5 /* LazuriShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C378386C2E2A98FB00358BA5 /* Build configuration list for PBXNativeTarget "LazuriShieldAction" */;
+			buildPhases = (
+				C378385D2E2A98FB00358BA5 /* Sources */,
+				C378385E2E2A98FB00358BA5 /* Frameworks */,
+				C378385F2E2A98FB00358BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C37838632E2A98FB00358BA5 /* LazuriShieldAction */,
+			);
+			name = LazuriShieldAction;
+			packageProductDependencies = (
+			);
+			productName = LazuriShieldAction;
+			productReference = C37838612E2A98FB00358BA5 /* LazuriShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C3AFCCD72E1C3DCE00EB6284 /* Lazuri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AFCCE32E1C3DCF00EB6284 /* Build configuration list for PBXNativeTarget "Lazuri" */;
+			buildPhases = (
+				C3AFCCD42E1C3DCE00EB6284 /* Sources */,
+				C3AFCCD52E1C3DCE00EB6284 /* Frameworks */,
+				C3AFCCD62E1C3DCE00EB6284 /* Resources */,
+				C3AFCCFA2E1C3E2200EB6284 /* Embed Foundation Extensions */,
+				C3512D062E1D70C400C7B5D7 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3512CEB2E1D662F00C7B5D7 /* PBXTargetDependency */,
+				C3512D002E1D70C400C7B5D7 /* PBXTargetDependency */,
+				C37838572E2A98E100358BA5 /* PBXTargetDependency */,
+				C37838692E2A98FB00358BA5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3AFCCDA2E1C3DCE00EB6284 /* Lazuri */,
+			);
+			name = Lazuri;
+			packageProductDependencies = (
+			);
+			productName = Lazuri;
+			productReference = C3AFCCD82E1C3DCE00EB6284 /* Lazuri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3AFCCD02E1C3DCE00EB6284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C3512CE22E1D662E00C7B5D7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C3512CF42E1D70C400C7B5D7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C378384B2E2A98E100358BA5 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C37838602E2A98FB00358BA5 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C3AFCCD72E1C3DCE00EB6284 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = C3AFCCD32E1C3DCE00EB6284 /* Build configuration list for PBXProject "Lazuri" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3AFCCCF2E1C3DCE00EB6284;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3AFCCD92E1C3DCE00EB6284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3AFCCD72E1C3DCE00EB6284 /* Lazuri */,
+				C3512CE22E1D662E00C7B5D7 /* LazuriMonitor */,
+				C3512CF42E1D70C400C7B5D7 /* LazuriReport */,
+				C378384B2E2A98E100358BA5 /* LazuriShieldConfiguration */,
+				C37838602E2A98FB00358BA5 /* LazuriShieldAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3512CE12E1D662E00C7B5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3512CF32E1D70C400C7B5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C378384A2E2A98E100358BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C378385F2E2A98FB00358BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AFCCD62E1C3DCE00EB6284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3512CDF2E1D662E00C7B5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3512CF12E1D70C400C7B5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37838482E2A98E100358BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C378385D2E2A98FB00358BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AFCCD42E1C3DCE00EB6284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3512CEB2E1D662F00C7B5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3512CE22E1D662E00C7B5D7 /* LazuriMonitor */;
+			targetProxy = C3512CEA2E1D662F00C7B5D7 /* PBXContainerItemProxy */;
+		};
+		C3512D002E1D70C400C7B5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3512CF42E1D70C400C7B5D7 /* LazuriReport */;
+			targetProxy = C3512CFF2E1D70C400C7B5D7 /* PBXContainerItemProxy */;
+		};
+		C37838572E2A98E100358BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C378384B2E2A98E100358BA5 /* LazuriShieldConfiguration */;
+			targetProxy = C37838562E2A98E100358BA5 /* PBXContainerItemProxy */;
+		};
+		C37838692E2A98FB00358BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37838602E2A98FB00358BA5 /* LazuriShieldAction */;
+			targetProxy = C37838682E2A98FB00358BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3512CED2E1D662F00C7B5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazuriMonitor/LazuriMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazuriMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LazuriMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri.LazuriMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3512CEE2E1D662F00C7B5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazuriMonitor/LazuriMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazuriMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LazuriMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri.LazuriMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3512D042E1D70C400C7B5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazuriReport/LazuriReport.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazuriReport/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LazuriReport;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri.LazuriReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3512D052E1D70C400C7B5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazuriReport/LazuriReport.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazuriReport/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LazuriReport;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri.LazuriReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C37838592E2A98E100358BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazuriShieldConfiguration/LazuriShieldConfiguration.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazuriShieldConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LazuriShieldConfiguration;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri.LazuriShieldConfiguration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C378385A2E2A98E100358BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazuriShieldConfiguration/LazuriShieldConfiguration.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazuriShieldConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LazuriShieldConfiguration;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri.LazuriShieldConfiguration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C378386D2E2A98FB00358BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazuriShieldAction/LazuriShieldAction.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazuriShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LazuriShieldAction;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri.LazuriShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C378386E2E2A98FB00358BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LazuriShieldAction/LazuriShieldAction.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazuriShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LazuriShieldAction;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri.LazuriShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3AFCCE12E1C3DCF00EB6284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3AFCCE22E1C3DCF00EB6284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3AFCCE42E1C3DCF00EB6284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lazuri/Lazuri.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3AFCCE52E1C3DCF00EB6284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lazuri/Lazuri.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FF9T299BM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrekulaber.Lazuri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3512CF02E1D662F00C7B5D7 /* Build configuration list for PBXNativeTarget "LazuriMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3512CED2E1D662F00C7B5D7 /* Debug */,
+				C3512CEE2E1D662F00C7B5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3512D032E1D70C400C7B5D7 /* Build configuration list for PBXNativeTarget "LazuriReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3512D042E1D70C400C7B5D7 /* Debug */,
+				C3512D052E1D70C400C7B5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C378385C2E2A98E100358BA5 /* Build configuration list for PBXNativeTarget "LazuriShieldConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37838592E2A98E100358BA5 /* Debug */,
+				C378385A2E2A98E100358BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C378386C2E2A98FB00358BA5 /* Build configuration list for PBXNativeTarget "LazuriShieldAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C378386D2E2A98FB00358BA5 /* Debug */,
+				C378386E2E2A98FB00358BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AFCCD32E1C3DCE00EB6284 /* Build configuration list for PBXProject "Lazuri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AFCCE12E1C3DCF00EB6284 /* Debug */,
+				C3AFCCE22E1C3DCF00EB6284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AFCCE32E1C3DCF00EB6284 /* Build configuration list for PBXNativeTarget "Lazuri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AFCCE42E1C3DCF00EB6284 /* Debug */,
+				C3AFCCE52E1C3DCF00EB6284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3AFCCD02E1C3DCE00EB6284 /* Project object */;
+}

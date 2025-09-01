@@ -1,0 +1,704 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "Grayscale",
+      "content":  "What is self-nudge? Grayscaling is a good example of self-nudge; it turns off the colours on the phone screen, making it less appealing. It cuts down on screen time by about 20 minutes a day, which people feel more in control of, and lowers stress (Dekker & Baumgartner, 2024; Rahmillah et al., 2023). Some people don't like grayscaling, but it doesn't take much effort (Dekker & Baumgartner, 2024).",
+      "category": "Anti-Addiction",
+      "link":"https://pure.uva.nl/ws/files/227312734/Is_life_brighter_when_your_phone_is_not.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Screen Time",
+      "content": "Screen time tracking features (e.g., Apple Screen Time, Google Digital Wellbeing) provide usage reports and allow setting time limits (Oeldorf-Hirsch & Chen, 2022; Rahmillah et al., 2023). Tools like MyTime support targeted non-use by helping users set personal goals and reflect on desired use (Hiniker et al., 2016). They can track time on \"waste of time\" apps to reduce it without affecting valuable app use (Hiniker et al., 2016).",
+      "category": "Time Management",
+      "link":"https://dl.acm.org/doi/pdf/10.1145/2858036.2858403"
+    },
+    {
+      "id": 3,
+      "title": "Test 3",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 4,
+      "title": "Test 4",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 5,
+      "title": "Test 5",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 6,
+      "title": "Test 6",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 7,
+      "title": "Test 7",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 8,
+      "title": "Test 8",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 9,
+      "title": "Test 9",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 10,
+      "title": "Test 10",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 11,
+      "title": "Test 11",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 12,
+      "title": "Test 12",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 13,
+      "title": "Test 13",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 14,
+      "title": "Test 14",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 15,
+      "title": "Test 15",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 16,
+      "title": "Test 16",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 17,
+      "title": "Test 17",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 18,
+      "title": "Test 18",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 19,
+      "title": "Test 19",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 20,
+      "title": "Test 20",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 21,
+      "title": "Test 21",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 22,
+      "title": "Test 22",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 23,
+      "title": "Test 23",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 24,
+      "title": "Test 24",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 25,
+      "title": "Test 25",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 26,
+      "title": "Test 26",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 27,
+      "title": "Test 27",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 28,
+      "title": "Test 28",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 29,
+      "title": "Test 29",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 30,
+      "title": "Test 30",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 31,
+      "title": "Test 31",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 32,
+      "title": "Test 32",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 33,
+      "title": "Test 33",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 34,
+      "title": "Test 34",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 35,
+      "title": "Test 35",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 36,
+      "title": "Test 36",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 37,
+      "title": "Test 37",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 38,
+      "title": "Test 38",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 39,
+      "title": "Test 39",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 40,
+      "title": "Test 40",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 41,
+      "title": "Test 41",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 42,
+      "title": "Test 42",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 43,
+      "title": "Test 43",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 44,
+      "title": "Test 44",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 45,
+      "title": "Test 45",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 46,
+      "title": "Test 46",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 47,
+      "title": "Test 47",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 48,
+      "title": "Test 48",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 49,
+      "title": "Test 49",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 50,
+      "title": "Test 50",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 51,
+      "title": "Test 51",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 52,
+      "title": "Test 52",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 53,
+      "title": "Test 53",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 54,
+      "title": "Test 54",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 55,
+      "title": "Test 55",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 56,
+      "title": "Test 56",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 57,
+      "title": "Test 57",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 58,
+      "title": "Test 58",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 59,
+      "title": "Test 59",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 60,
+      "title": "Test 60",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 61,
+      "title": "Test 61",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 62,
+      "title": "Test 62",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 63,
+      "title": "Test 63",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 64,
+      "title": "Test 64",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 65,
+      "title": "Test 65",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 66,
+      "title": "Test 66",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 67,
+      "title": "Test 67",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 68,
+      "title": "Test 68",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 69,
+      "title": "Test 69",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 70,
+      "title": "Test 70",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 71,
+      "title": "Test 71",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 72,
+      "title": "Test 72",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 73,
+      "title": "Test 73",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 74,
+      "title": "Test 74",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 75,
+      "title": "Test 75",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 76,
+      "title": "Test 76",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 77,
+      "title": "Test 77",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 78,
+      "title": "Test 78",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 79,
+      "title": "Test 79",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 80,
+      "title": "Test 80",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 81,
+      "title": "Test 81",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 82,
+      "title": "Test 82",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 83,
+      "title": "Test 83",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 84,
+      "title": "Test 84",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 85,
+      "title": "Test 85",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 86,
+      "title": "Test 86",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 87,
+      "title": "Test 87",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 88,
+      "title": "Test 88",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 89,
+      "title": "Test 89",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 90,
+      "title": "Test 90",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 91,
+      "title": "Test 91",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 92,
+      "title": "Test 92",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 93,
+      "title": "Test 93",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 94,
+      "title": "Test 94",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 95,
+      "title": "Test 95",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 96,
+      "title": "Test 96",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 97,
+      "title": "Test 97",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 98,
+      "title": "Test 98",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 99,
+      "title": "Test 99",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    },
+    {
+      "id": 100,
+      "title": "Test 100",
+      "content": "Test",
+      "category": "_Test",
+      "link": null
+    }
+  ]
+}
