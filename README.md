@@ -102,14 +102,24 @@ Lazuri/
 │   ├── FocusView.swift         # Focus management UI
 │   ├── LearnView.swift         # Flashcard system
 │   ├── CompeteView.swift       # Game Center integration
-│   └── Supporting Views/       # Reusable components
+│   ├── GameCenterView.swift    # Game Center dashboard
+│   ├── ButtonsGameCenterView.swift # Game Center buttons
+│   ├── MotivationSheetView.swift   # Motivation promises
+│   ├── ScheduleCreatorView.swift   # Schedule creation
+│   └── ScheduleEditView.swift      # Schedule editing
 ├── Services/
-│   ├── ScreenTimeManager.swift # Screen Time API handler
-│   ├── GameCenterManager.swift # Game Center services
-│   ├── FocusTracker.swift      # Focus session tracking
-│   └── UserDataManager.swift   # User data persistence
+│   ├── ScreenTimeManager.swift     # Screen Time API handler
+│   ├── DeviceActivityManager.swift # Device activity monitoring
+│   ├── GameCenterManager.swift     # Game Center services
+│   ├── FocusTracker.swift          # Focus session tracking
+│   ├── UserDataManager.swift       # User data persistence
+│   ├── AuthorizationManager.swift  # Screen Time authorization
+│   ├── DataLoader.swift            # JSON data loading
+│   └── NotificationExtensions.swift # Notification helpers
 ├── Models/
 │   └── Flashcard.swift         # Data models
+├── Resources/
+│   └── flashcards.json         # Flashcard content
 └── Extensions/
     ├── LazuriMonitor/          # Activity monitoring
     ├── LazuriReport/           # Usage reports
